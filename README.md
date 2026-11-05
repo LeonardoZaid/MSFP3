@@ -99,7 +99,7 @@ La práctica integra contenidos de tres unidades de la asignatura **Modelado de 
 
 Los modelos mecánicos son una herramienta para representar las propiedades viscoelásticas del sistema musculoesquelético: combinando elementos contráctiles, resortes y amortiguadores se describe de forma simplificada la relación entre la fuerza del músculo, su deformación y las propiedades de los tejidos y tendones. La figura muestra el esquema del modelo sobre el brazo, con el tendón dañado que representa al caso.
 
-![Esquema del modelo musculoesquelético: fuerza F(t), desplazamientos x(t) y x1(t), elementos Cp y Cs, y tendón dañado (caso) con FsY(t) y FsX(t)](esquema_musculoesqueletico.jpg)
+![Esquema del modelo musculoesquelético: fuerza F(t), desplazamientos x(t) y x1(t), elementos Cp y Cs, y tendón dañado (caso) con FsY(t) y FsX(t)](esquema_musculoesqueletico.jpeg)
 
 *Esquema elaborado en BioRender: el elemento paralelo $C_p$ (músculo), el elemento en serie $C_s$ (tendón), el desplazamiento total $x(t)$, el desplazamiento $x_1(t)$ de $C_s$ y la deformación del amortiguador $x(t)-x_1(t)$. En el recuadro, $F_{sX}(t)$ es la fuerza transmitida del control y $F_{sY}(t)$ la del caso (tendón dañado).*
 
