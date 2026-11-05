@@ -525,7 +525,7 @@ Organización **sugerida** para la entrega:
 | [`Moreno24210590P3.pdf`](Moreno24210590P3.pdf) | Exportación del cuaderno MATLAB |
 | [`Moreno24210590P3.py`](Moreno24210590P3.py) | Script de Python |
 | [`SistemaP3Leo.slx`](SistemaP3Leo.slx) | Modelo de Simulink/Simscape |
-| [`Análisis Matemático P3.pdf`](An%C3%A1lisis%20Matem%C3%A1tico%20P3.pdf) | Desarrollo analítico a mano |
+| [`AnalisisMatematicoP3.pdf`](AnalisisMatematicoP3.pdf) | Desarrollo analítico a mano |
 | [`Simulink_matlab.pdf`](Simulink_matlab.pdf) | Figura de MATLAB/Simulink |
 | [`EDOsysss_matlab.pdf`](EDOsysss_matlab.pdf) | Figura del modelo de EDOs |
 | [`CasoTratamiento_python.pdf`](CasoTratamiento_python.pdf) | Figura de Python |
