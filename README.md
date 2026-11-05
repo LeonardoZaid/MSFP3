@@ -5,14 +5,14 @@ Repositorio académico de la asignatura **Modelado de Sistemas Fisiológicos**, 
 El caso de estudio representa un **compartimento musculoesquelético** mediante un modelo mecánico viscoelástico (elementos $C_p$, $C_s$ y $R$ más el elemento contráctil $F_0$), convertido a un **circuito eléctrico equivalente** con la analogía fuerza–voltaje. Se compara la respuesta de un individuo sano (**control**) con la de un caso simulado de atrofia muscular (**caso**) y se diseña un controlador que acerque la respuesta del caso a la del control.
 
 **Docente:** Dr. Paul Antonio Valle Trujillo  
-**Correo:** paul.valle@tectijuana.edu.mx  
+**Correo:** [paul.valle@tectijuana.edu.mx](mailto:paul.valle@tectijuana.edu.mx)  
 **Departamento:** Ingeniería Eléctrica y Electrónica  
 **Institución:** Tecnológico Nacional de México / Instituto Tecnológico de Tijuana  
 **Asignatura:** Modelado de Sistemas Fisiológicos  
 **Programa:** Ingeniería Biomédica  
-**Estudiante:** Leonardo Zaid Moreno Zavala · 24210590 · l24210590@tectijuana.edu.mx
+**Estudiante:** Leonardo Zaid Moreno Zavala · 24210590 · [l24210590@tectijuana.edu.mx](mailto:l24210590@tectijuana.edu.mx)
 
-**Repositorio de la asignatura:** https://github.com/DrPaulValle/MSF-IBF1020  
+**Repositorio de la asignatura:** [github.com/DrPaulValle/MSF-IBF1020](https://github.com/DrPaulValle/MSF-IBF1020)  
 **Sede:** Blvd. Alberto Limón Padilla s/n, Tijuana, C. P. 22454, B. C., México.
 
 ---
@@ -149,7 +149,7 @@ La diferencia entre control y caso se representa **solo con el incremento de $R$
 <a id="modelo"></a>
 ## Formulación matemática
 
-El análisis se hizo a mano y se resume a continuación; el desarrollo completo está en el PDF [`Analisis_Matematico_P3.pdf`](Analisis_Matematico_P3.pdf).
+El análisis se hizo a mano y se resume a continuación; el desarrollo completo está en el PDF [`Análisis Matemático P3.pdf`](An%C3%A1lisis%20Matem%C3%A1tico%20P3.pdf).
 
 ### 1. Relaciones del modelo
 
@@ -386,7 +386,7 @@ $$
 
 La sintonización se hizo con tiempo de respuesta de $0.011\,\mathrm{s}$ (igual a la constante de tiempo del control) y comportamiento transitorio de $0.9$ (lado robusto).
 
-![Captura de la sintonización del PID en Simulink: parámetros y desempeño](Parametros del controlador.jpeg)
+![Captura de la sintonización del PID en Simulink: parámetros y desempeño](Parametros%20del%20controlador.jpeg)
 
 ### 3. Desempeño en lazo cerrado
 
@@ -507,13 +507,29 @@ Organización **sugerida** para la entrega:
 ├── Moreno24210590P3.pdf               # Exportación del cuaderno MATLAB
 ├── Moreno24210590P3.py                # Implementación en Python
 ├── SistemaP3Leo.slx                   # Modelo Simulink/Simscape
-├── Analisis_Matematico_P3.pdf         # Desarrollo analítico a mano
-├── Simulink_matlab.pdf
-├── EDOsysss_matlab.pdf
-├── CasoTratamiento_python.pdf
-├── esquema_musculoesqueletico.jpeg     # Esquema del modelo (BioRender)
-└── Parametros del controlador.jpg              # Captura de la sintonización del PID
+├── Análisis Matemático P3.pdf         # Desarrollo analítico a mano
+├── Simulink_matlab.pdf                # Figura MATLAB/Simulink
+├── EDOsysss_matlab.pdf                # Figura MATLAB (modelo de EDOs)
+├── CasoTratamiento_python.pdf         # Figura Python
+├── esquema_musculoesqueletico.jpeg    # Esquema del modelo (BioRender)
+└── Parametros del controlador.jpeg    # Captura de la sintonización del PID
 ```
+
+### Acceso rápido a los archivos
+
+| Archivo | Descripción |
+|---|---|
+| [`Moreno24210590P3.mlx`](Moreno24210590P3.mlx) | Cuaderno MATLAB (*live script*) |
+| [`Moreno24210590P3.pdf`](Moreno24210590P3.pdf) | Exportación del cuaderno MATLAB |
+| [`Moreno24210590P3.py`](Moreno24210590P3.py) | Script de Python |
+| [`SistemaP3Leo.slx`](SistemaP3Leo.slx) | Modelo de Simulink/Simscape |
+| [`Análisis Matemático P3.pdf`](An%C3%A1lisis%20Matem%C3%A1tico%20P3.pdf) | Desarrollo analítico a mano |
+| [`Simulink_matlab.pdf`](Simulink_matlab.pdf) | Figura de MATLAB/Simulink |
+| [`EDOsysss_matlab.pdf`](EDOsysss_matlab.pdf) | Figura del modelo de EDOs |
+| [`CasoTratamiento_python.pdf`](CasoTratamiento_python.pdf) | Figura de Python |
+| [`esquema_musculoesqueletico.jpeg`](esquema_musculoesqueletico.jpeg) | Esquema del modelo |
+| [`Parametros del controlador.jpeg`](Parametros%20del%20controlador.jpeg) | Captura de la sintonización del PID |
+
 
 **Criterio de nombres:** los nombres de las figuras corresponden a los que generan los scripts. Los nombres del cuaderno, del modelo, de la exportación analítica y de las imágenes son **propuestas organizativas**; si se usan otros nombres o subcarpetas, actualizar las rutas del README.
 
@@ -588,7 +604,7 @@ Debe distinguirse entre **resultados de referencia reproducidos** y **aportes o 
 
 [6] N. S. Nise, *Control Systems Engineering*, 8th ed., John Wiley & Sons, 2020.
 
-[7] P. A. Valle, *Syllabus para Modelado de Sistemas Fisiológicos*, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B. C., México, 2026. Disponible en: https://biomath.xyz/course/
+[7] P. A. Valle, *Syllabus para Modelado de Sistemas Fisiológicos*, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B. C., México, 2026. Disponible en: <https://biomath.xyz/course/>
 
 [8] Tecnológico Nacional de México, *Programa de estudio de la asignatura Modelado de Sistemas Fisiológicos, IBF-1020*.
 
